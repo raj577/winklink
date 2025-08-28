@@ -47,50 +47,8 @@ Cute animations, sounds, and date suggestions make it playful and engaging.
 - **Firebase Storage** → profile images
 
 ---
-
-## 📂 Database Models (Firestore Example)
-
-### `users`
-```json
-{
-  "id": "uuid",
-  "name": "Alice",
-  "gender": "female",
-  "status": "single/couple",
-  "photo_url": "https://..."
-}
-couple_winks
-json
-Copy code
-{
-  "id": "uuid",
-  "sender_id": "uuid",
-  "receiver_id": "uuid",
-  "message": "❤️",
-  "created_at": "timestamp"
-}
-local_winks
-json
-Copy code
-{
-  "id": "uuid",
-  "sender_id": "uuid",
-  "receiver_id": "uuid",
-  "accepted": true,
-  "date_suggestion": "Coffee at 5 PM",
-  "created_at": "timestamp"
-}
-matches
-json
-Copy code
-{
-  "id": "uuid",
-  "wink_id": "uuid",
-  "users": ["sender_id", "receiver_id"],
-  "status": "active",
-  "created_at": "timestamp"
-}
 📊 App Flow
+
 Authentication → User logs in with Firebase Auth.
 
 Profile Setup → Name, gender, photo, relationship status.
@@ -135,4 +93,5 @@ Advanced filters (interests, distance)
 Premium features (unlimited winks, boosted visibility)
 
 🧑‍🎨 Credits
+
 Designed and thought by Rajat Srivastav
