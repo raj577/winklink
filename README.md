@@ -34,8 +34,8 @@ Cute animations, sounds, and date suggestions make it playful and engaging.
 ### Frontend (Flutter)
 - **Flutter** (cross-platform: iOS & Android)
 - **State Management**: Riverpod / Provider / Bloc (team preference)
-- **Animations**: Lottie
-- **Sounds**: Audioplayers
+- **Animations**: [Lottie](https://pub.dev/packages/lottie)
+- **Sounds**: [audioplayers](https://pub.dev/packages/audioplayers)
 - **Nearby Communication**:
   - [`flutter_blue_plus`](https://pub.dev/packages/flutter_blue_plus) → Bluetooth Low Energy (BLE)
   - [`wifi_p2p`](https://pub.dev/packages/wifi_p2p) → WiFi Direct
@@ -134,21 +134,5 @@ Advanced filters (interests, distance)
 
 Premium features (unlimited winks, boosted visibility)
 
-👨‍💻 Contributing
-Clone repo
-
-Run flutter pub get
-
-Add your Firebase config (google-services.json / GoogleService-Info.plist)
-
-Run flutter run
-
-📜 License
-MIT License – free to use, modify, and distribute.
-
-yaml
-Copy code
-
----
-
-Would you like me to also include a **diagram image (system architecture)** in this `README.md` so y
+🧑‍🎨 Credits
+Designed and thought by Rajat Srivastav
