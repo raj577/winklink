@@ -76,20 +76,6 @@ Couple winks
 
 Local winks (send/receive, accept/ignore)
 
-Phase 2
-
-Notifications (FCM)
-
-Wink streaks and gamification
-
-Random date suggestions
-
-Phase 3
-
-In-app chat for matches
-
-Advanced filters (interests, distance)
-
 Premium features (unlimited winks, boosted visibility)
 
 🧑‍🎨 Credits
